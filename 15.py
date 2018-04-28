@@ -1,7 +1,7 @@
 print("1º-si")
 print("2ª-no")
-f= int(input("¿Quieres hacer una operaciòn?"))
-while f==1:
+f= input("¿Quieres hacer una operaciòn?")
+while f=="si":
     print("""Suma(1\nresta(2)\ndiviciòn(3)\nimprimir dador de usuario(4)\nmultiplicaciòn(5)\nejercicio anterior(6)\nsalir(7)\ncomparaciòn de numeros(8)\n """)
     a=int (input())
     if a==1:
@@ -77,7 +77,7 @@ while f==1:
             print("Todos son diferentes")
     print("1º-si")
     print("2ª-no")
-    f= int(input("¿Quieres hacer una operaciòn?"))
+    f=input("¿Quieres hacer una operaciòn?")
 
 
 input(...)
